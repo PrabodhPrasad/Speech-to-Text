@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice to Text</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <div id="btngrp">
+            <button id="sbtn">Recognize Speech</button>
+            <button id="ctc" onclick="ctc()">Copy To Clipboard</button>
+        </div>
+        <textarea id="output" cols="20" rows="5" placeholder="Your Speech Here"></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    background:#FFF8E8;
+    font-family: "montserrat";
+}
+#output{
+    font-size: 50px;
+    color: #674636;
+    font-weight: 200;
+    background-color: #F7EED3;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    width: 600px;
+    height: 420px;
+}
+button{
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #AAB396;
+    border: none;
+    padding: 10px;
+    color: #0f0f0f;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+}
+button:hover{
+    background-color: #674636;
+    color: #F7EED3;
+}
+#content{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btngrp{
+    display: block;
+    width: 220px;
+}
